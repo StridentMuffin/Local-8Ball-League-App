@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.yvpapp.MainActivity"
+    android:padding="8dp"
+    android:background="#1B5E20">
+
+
+    <TextView
+        android:id="@+id/txtLeagueTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#B71C1C"
+        android:gravity="center"
+        android:onClick="leagueTable"
+        android:text="League Tables"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_margin="8dp"/>
+
+
+    <TextView
+        android:id="@+id/txtPlayerAvgs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:onClick="playerAverages"
+        android:text="Player Averages"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/txtVenues"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:gravity="center"
+        android:onClick="venues"
+        android:text="Venues"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/txtRules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:onClick="rules"
+        android:text="Rules"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_margin="8dp"/>
+
+
+    <TextView
+        android:id="@+id/txtScoreboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#b71c1c"
+        android:gravity="center"
+        android:onClick="scoreboard"
+        android:text="Scoreboard"
+        android:textColor="#000000"
+
+        android:textSize="24sp"
+        android:layout_margin="8dp"/>
+
+</LinearLayout>

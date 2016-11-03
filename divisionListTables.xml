@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/divisionListTables"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.yvpapp.MainActivity"
+    android:padding="8dp"
+    android:background="#1B5E20"
+    >
+
+
+    <TextView
+        android:id="@+id/txtWR1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#B71C1C"
+        android:gravity="center"
+        android:onClick="leagueTableWR1"
+        android:text="WR1"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_margin="8dp"/>
+
+
+    <TextView
+        android:id="@+id/txtWR2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:onClick="leagueTableWR2"
+        android:text="WR2"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_margin="8dp"/>
+
+
+
+    <TextView
+        android:id="@+id/txtL1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:onClick="leagueTableL1"
+        android:text="L1"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_margin="8dp"/>
+
+
+    <TextView
+        android:id="@+id/txtL2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#b71c1c"
+        android:gravity="center"
+        android:onClick="leagueTableL2"
+        android:text="L2"
+        android:textColor="#000000"
+
+        android:textSize="24sp"
+        android:layout_margin="8dp"/>
+
+</LinearLayout>
